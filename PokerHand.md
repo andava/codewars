@@ -4,33 +4,52 @@ A poker hand consists of five cards. Poker hands are ranked by the following par
 
 
 *High Card*
+
 Hands which do not fit any higher category are ranked by the value of their highest card.
 
+
 *Pair*
+
 Two of the five cards in the hand have the same value.
 
+
 *Two Pairs*
+
 The hand contains two different pairs.
 
+
 *Three of a Kind*
+
 Three of the cards in the hand have the same value.
 
+
 *Straight*
+
 Hand contains five cards with consecutive values.
 
+
 *Flush*
+
 Hand contains five cards of the same suit.
 
+
 *Full House*
+
 Three cards of the same value, with the remaining two cards forming a pair.
 
+
 *Four of a Kind*
+
 Four cards with the same value.
 
+
 *Straight Flush*
+
 Five cards of the same suit in numerical order.
 
+
 *Royal Flush*
+
 Consists of the ace, king, queen, jack and ten of a suit.
 
 
@@ -56,7 +75,7 @@ Royal Flush
 
 ---
 
-# Solution
+### Solution
 
 ```
 from collections import Counter, OrderedDict
